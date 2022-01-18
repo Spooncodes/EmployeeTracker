@@ -1,4 +1,4 @@
-const cli = require('./lib/cli');
+const cli = require('./libs/cli.js');
 
 // runs application
 let init = () => {

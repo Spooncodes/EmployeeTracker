@@ -13,6 +13,7 @@ let viewEmployees = (cli) => {
         LEFT JOIN department on role.department_id = department.id
         LEFT JOIN employee as e2 on e2.id = e1.manager_id;`,
         (err, res) => {
+            console.log(err)
             let employeeTable = [];
             res.forEach((employee) => {
                 employeeTable.push(

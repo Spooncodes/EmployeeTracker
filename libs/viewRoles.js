@@ -8,7 +8,7 @@ let viewRoles = (cli) => {
 
     let connection = mysql.createConnection(db_config);
     connection.query(`
-        SELECT id, title, salary, department_id FROM role;`,
+        SELECT id, title, salary, department_id FROM role;`),
         (err, res) => {
             let roleTable = [];
             res.forEach((role) => {
@@ -27,7 +27,7 @@ let viewRoles = (cli) => {
             );
             connection.end();
             cli();
-        });
+        };
 
 }
 

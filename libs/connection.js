@@ -3,10 +3,10 @@ const cTable = require('console.table');
 
 // Create Connection
 const db_config = {
-    host: 'localhost',
+    host: '127.0.0.1',
     user: 'root',
-    password: '',
-    database: 'employeetracker_db',
+    password: 'root5005101',
+    database: 'employeeTracker_db',
     port: 3306
 };
 
