@@ -6,4 +6,4 @@ https://github.com/Spooncodes/EmployeeTracker
 https://github.com/Spooncodes
 
 ### Demo
-![screen-gif](.assets/img/employeetracker.gif)
+![screen-gif](./assets/img/employeetracker.gif)
